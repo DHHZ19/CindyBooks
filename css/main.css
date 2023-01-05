@@ -555,6 +555,10 @@ html {
   position: absolute;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-16 {
   left: 4rem;
 }
@@ -640,6 +644,10 @@ html {
   height: 1.5rem;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -670,6 +678,10 @@ html {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 @keyframes fade {
