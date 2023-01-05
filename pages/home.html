@@ -47,7 +47,9 @@
         </ul>
       </div>
       <!--Mobile-->
-      <div class="flex lg:hidden absolute right-10">
+      <div
+        class="flex lg:hidden absolute right-10 cursor-pointer hover:rounded-xl rounded-lg hover:text-pink-400 ease-in duration-500"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="w-9 h-9"
@@ -88,20 +90,24 @@
       </div>
     </section>
     <!-- Feed -->
-    <div id="curator-feed-default-feed-layout">
-      <a
-        href="https://curator.io"
-        target="_blank"
-        class="crt-logo crt-tag w-full h-4"
-      ></a>
-    </div>
+    <section>
+      <h2 class="text-3xl capitalize py-3 px-6 text-pink-400">Quailty Work</h2>
+      <div id="curator-feed-default-feed-layout">
+        <a
+          href="https://curator.io"
+          target="_blank"
+          class="crt-logo crt-tag w-full h-4"
+        ></a>
+      </div>
+    </section>
+
     <!--Main-->
     <main class="flex h-screen w-full bg-pink-100 flex-col">
-      <div class="text-4xl self-center mt-5 py-3 text-center">
-        <h3 class="">Policy,</h3>
+      <div class="text-3xl capitalize py-3 px-6 mt-5">
+        <h3 class="text-3xl">Policy,</h3>
         <p>Please make sure to read the policy</p>
       </div>
-      <p class="w-full self-center text-xl px-6">
+      <p class="w-full text-xl px-6">
         Dear Guest, for my safety and yours masks are required at time of
         service. Please do not bring extra guests, only the client being
         serviced is allowed inside. I do ask my clients to come in with bare
@@ -111,20 +117,30 @@
         are non-refundable. If you need to cancel please ensure you cancel
         within two business days before the scheduled service date.
       </p>
-      <div class="text-4xl self-center mt-5 py-3 text-center">
-        <h3 class="">WHEN CAN YOU BOOK?</h3>
+
+      <div class="w-full px-6 mt-5 py-3">
+        <h3 class="text-3xl capitalize">When can you book?</h3>
       </div>
 
-      <p class="w-full self-center text-xl px-6">
+      <p class="w-full self-center text-xl px-6 mt-5">
         BOOKING TAKES PLACE VIA THE WEBSITE. PRESS "BOOK NOW" IN ORDER TO SECURE
         A TIME SLOT. AVAILABILITY IS UPLOADED WEEKLY.
       </p>
+      <button
+        class="bg-pink-400 w-60 text-4xl sm:text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-gray-100 font-semibold py-2 px-4 border rounded-2xl border-gray-400 shadow"
+      >
+        Book Now!
+      </button>
     </main>
     <!--Footer-->
-    <footer class="h-24 flex bg-pink-400 text-black items-end">
-      &copy;
-      <a class="cursor-pointer" href="https://twitter.com/DiegoCode_">Diego</a>
-      2023 made with 💗 for Cindy
+    <footer
+      class="h-24 flex bg-pink-400 text-black items-end border-t-4 border-black border-double"
+    >
+      &copy; 2023
+      <a class="cursor-pointer px-1" href="https://twitter.com/DiegoCode_"
+        >DiegoCode_
+      </a>
+      made with 💗 for Cindy
     </footer>
   </body>
 </html>
